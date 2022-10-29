@@ -1,0 +1,4 @@
+There are three different types of styling. Please refer to the comment section og Header.js
+1. Inline styline using double curly brackets
+2. You can define style object and refer to it
+3. Define CSS file and import in the component file
