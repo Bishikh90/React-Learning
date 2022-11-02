@@ -13,6 +13,7 @@ class Header extends React.Component {
     handleChange = (event) => {
         console.log(event.target.value)
         this.setState({keyword: event.target.value?event.target.value:'User Input here'})
+        this.props.userText(event.target.value)
     }
 
     render() {
